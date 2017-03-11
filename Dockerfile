@@ -1,4 +1,4 @@
-FROM resin/armhf-alpine
+FROM armhf/alpine
 
 RUN apk --no-cache add --update \
     mosquitto \
